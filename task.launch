@@ -1,0 +1,6 @@
+<launch>
+  <node name="ai" pkg="ros_ai_task" type="ai.py" output="screen" />
+  <node name="camera" pkg="ros_ai_task" type="camera.py" output="screen" />
+  <node name="controller" pkg="ros_ai_task" type="controller.py" output="screen" />
+  <node name="processor" pkg="ros_ai_task" type="processor.py" output="screen" />
+</launch>

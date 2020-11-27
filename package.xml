@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>ros_ai_task</name>
+  <version>1.0.0</version>
+  <description>Exam Prerequisite - KI in der Robotik</description>
+  <maintainer email="tim.oelkers@student.htw-berlin.de">Tim Oelkers</maintainer>
+  <license>WTFPL</license>
+  <buildtool_depend>catkin</buildtool_depend>
+  <depend>rospy</depend>
+  <depend>std_msgs</depend>
+  <depend>sensor_msgs</depend>
+  <depend>cv_bridge</depend>
+  <depend>python-pytorch-pip</depend>
+  <depend>python3-opencv</depend>
+  <depend>python3-matplotlib</depend>
+  <build_depend>message_generation</build_depend>
+  <exec_depend>message_runtime</exec_depend>
+</package>
